@@ -22,7 +22,7 @@ text-rendering: optimizeLegibility;
             HEADER CSS
 ======================================*/	
 header{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.466),rgba(160, 151, 124, 0.466)), url(Images/Anthonypic.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.466),rgba(160, 151, 124, 0.466)), url(Anthonypic.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 54.5px;
