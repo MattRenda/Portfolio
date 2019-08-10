@@ -22,7 +22,7 @@ text-rendering: optimizeLegibility;
             HEADER CSS
 ======================================*/	
 header{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.466),rgba(160, 151, 124, 0.466)), url(Anthonypic.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.466),rgba(160, 151, 124, 0.466)), url(Images/Anthonypic.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 54.5px;
@@ -58,7 +58,7 @@ text-transform: uppercase;
 
 .main-nav li a:link,
 .main-nav li a:visited{
-    color:black;
+    color: rgb(116, 116, 116);
     font-size: 120%;
     text-decoration: none;
     text-transform: uppercase;
@@ -84,7 +84,7 @@ text-transform: uppercase;
 
 .shop-about li a:link,
 .shop-about li a:visited{
-    color:black;
+    color: rgb(116, 116, 116);
     text-decoration: none;
     font-size: 120%;
     text-transform: uppercase;
@@ -107,16 +107,14 @@ h1{
   margin-top:0px;
   margin-bottom: 20px;
   font-size: 240%;
-  color:rgba(0, 0, 0, 0.699);
+  color: rgb(116, 116, 116);
   word-spacing: 4px;
   letter-spacing: 1px;
 }
-
 h1 a{
     text-decoration: none;
     color: rgb(116, 116, 116);
 }
-
 
 h2{
     margin-bottom: 30px;
@@ -135,7 +133,7 @@ h3{
 /* ====================================
             PARAGRAPHS
 ======================================*/
-.main-p{
+.section-features .main-p{
     
     margin-left: 570px; 
     margin-bottom: 20px;
