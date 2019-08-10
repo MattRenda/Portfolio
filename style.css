@@ -110,8 +110,13 @@ h1{
   color:rgba(0, 0, 0, 0.699);
   word-spacing: 4px;
   letter-spacing: 1px;
-
 }
+
+h1 a{
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+}
+
 
 h2{
     margin-bottom: 30px;
