@@ -134,9 +134,8 @@ h3{
             PARAGRAPHS
 ======================================*/
 .section-features .main-p{
-    
-    margin-left: 570px; 
-    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
 }
 
 .box{
@@ -192,7 +191,8 @@ h3{
 
 .new-product-showcase figure figcaption{
     font-size: 70%;
-    padding-left: 220px; 
+    text-align: center;
+    margin-left: 25px;
 }
 
 /* ====================================
