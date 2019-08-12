@@ -13,12 +13,12 @@
     .section-features{ padding: 60px; }
     .new-product-showcase{ padding:10px 80px; }
 }
-/* 767 to 800 */
+/* 780 to 850 */
 @media screen and (max-width: 850px){
     .main-nav li a:link,
     .main-nav li a:visited,
     .shop-about li a:link,
-    .shop-about li a:visited{font-size:80%}
+    .shop-about li a:visited{font-size:95%}
     .shop-about li{
         margin-left: 110px;
     }
@@ -31,8 +31,10 @@
     .social-links a:link,
     .social-links a:visited{font-size:90%;}
     footer p { font-size: 60%;}
+    
+   
 }
-/* small phones to small tablets: from 481px to 767px */
+/* small phones to small tablets: from 481px to 780px */
 @media only screen and (max-width: 780px){
     .section-features{
         margin-bottom: 0;
@@ -52,7 +54,7 @@
     
     .new-product-showcase{ padding:10px 0px; }
 
-    .main-nav{display: none;}
+     .main-nav{display: none;}
     .shop-about{display: none;}
 }
 
