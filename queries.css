@@ -73,3 +73,15 @@
     .shop-about{display: none;}
 }
 
+
+/* small phones: from 0 to 480px */
+@media only screen and (max-width: 480px){
+    
+    .footer-nav li a{
+        display: none;
+    }
+    footer div .span_1_of_2{
+        width: 100%;
+        display: block;
+    }
+}
