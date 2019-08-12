@@ -34,8 +34,8 @@
     
    
 }
-/* small phones to small tablets: from 481px to 780px */
-@media only screen and (max-width: 780px){
+/* small phones to small tablets: from 481px to 770px */
+@media only screen and (max-width: 770px){
     .section-features{
         margin-bottom: 0;
     }
