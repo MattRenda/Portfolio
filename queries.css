@@ -33,7 +33,7 @@
     footer p { font-size: 60%;}
 }
 /* small phones to small tablets: from 481px to 767px */
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 780px){
     .section-features{
         margin-bottom: 0;
     }
