@@ -36,6 +36,38 @@
 }
 /* small phones to small tablets: from 481px to 770px */
 @media only screen and (max-width: 770px){
-    
+      .section-features{
+        margin-bottom: 0;
+    }
+    .section-features .col {   
+      float: none;
+      width: 100%;
+      text-align: left;
+      font-size: 20px;
+    }
+    .section-features .col h1{
+        text-align: center;
+    }
+    .section-features .col .icon{
+        text-align: center;
+    }
+
+    .new-product-showcase .col{
+        width: 49.2%;        
+        margin: 0;
+        
+    }
+    .new-product-showcase div{
+        display: inline;
+    }
+    section
+    .new-product-showcase{ padding:10px 0px; }
+
+    footer{
+        display: inline-block;
+    }
+
+    .main-nav{display: none;}
+    .shop-about{display: none;}
 }
 
