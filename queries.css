@@ -56,13 +56,11 @@
 
      .main-nav{display: none;}
     .shop-about{display: none;}
+    
+    .new-product-showcase .col{
+        width: 49.2%;
+        margin: 0;
+        
+    }
 }
 
-@media only screen and (max-width: 660px){
-  
-}
-/* small phones: from 0 to 480px */
-@media only screen and (max-width: 480px){
-    
-   
-}
