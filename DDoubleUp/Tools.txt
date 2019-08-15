@@ -1,4 +1,0 @@
-Client Side
-	js, bootstrap,jquery,react
-Server Side
-	node.js,php
