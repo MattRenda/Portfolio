@@ -73,8 +73,8 @@ class Home extends Component {
                                                 name='answer'
                                             ></input>
                                         </Card.Text>
-                                        <Button variant="primary" onClick={this.resetQuestions}>Reset</Button>
-                                        <Button variant="primary" type='submit' >Submit Question!</Button>
+                                        <Button variant="info" onClick={this.resetQuestions}>Reset</Button>
+                                        <Button variant="info" type='submit' >Submit Question!</Button>
                                     </Form>
                                 </Card.Body>
                             </Card>
@@ -86,7 +86,7 @@ class Home extends Component {
                                 Once you've finished you can start by clicking the "Time to study!" button below.
                         </p>
                             <div class="text-center">
-                                <Button variant="primary" href="/deck">Time to study!</Button>
+                                <Button variant="info" href="/deck">Time to study!</Button>
                             </div>
                         </Col>
                     </Row>
