@@ -7,7 +7,7 @@ const width = {
     paddingTop: '10vh',
     backgroundColor: 'rgb(252,183,78)',
     fontFamily: 'Open Sans, sans-serif',
-    fontSize: "15px",
+    fontSize: "1.5vw",
     color:'rgb(75, 77, 79)',
     paddingLeft:'20px',
     paddingRight:'20px'
@@ -20,7 +20,7 @@ const card={
     margin:'10px'
 }
 const intro = {
-    fontSize: '20px'
+    fontSize: '2vw'
 }
 class About extends Component {
 

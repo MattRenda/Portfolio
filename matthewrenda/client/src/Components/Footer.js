@@ -13,7 +13,8 @@ const center = {
 
 const txtCenter = {
     textAlign: 'center',
-    marginTop:'20vh'
+    marginTop:'20vh',
+    fontSize:'1.5vw'
 }
 
 class Footer extends Component {
@@ -24,8 +25,8 @@ class Footer extends Component {
                 <footer>
                     <div style={bgColor}>
                         <img style={center} src={require('../portfolio_logo_White.png')}
-                            width='50px'
-                            height='50px' />
+                            width='50vw'
+                            height='50vw' />
                         <div style={txtCenter}> Copyright &copy; 2020, MatthewJRenda</div>
 
 

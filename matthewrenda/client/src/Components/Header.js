@@ -4,7 +4,7 @@ import { Container, Col, Row, Navbar, Button } from 'react-bootstrap'
 
 const introbig = {
     fontFamily: 'Open Sans, sans-serif',
-    fontSize: "20px",
+    fontSize: "2vw",
     textAlign: 'center',
     marginTop: '120px',
     color:'rgb(75, 77, 79)'
@@ -13,9 +13,9 @@ const introbig = {
 
 const introsmall = {
     fontFamily: 'Open Sans, sans-serif',
-    fontSize: "15px",
+    fontSize: "1.5vw",
     textAlign: 'center',
-    marginTop: '12px',
+    marginTop: '3vh',
     marginBottom: '50vh',
     color:'rgb(75, 77, 79)'
 
@@ -23,16 +23,16 @@ const introsmall = {
 
 const btn = {
     position: 'absolute',
-    top: '50px',
-    right: '50px',
+    top: '6vw',
+    right: '6vw',
     backgroundColor:'rgb(252, 183, 78)',
     border:'none',
 }
 
 const brand={
     position: 'absolute',
-    top: '50px',
-    left: '50px'
+    top: '6vw',
+    left: '6vw'
 }
 
 const smSpace={

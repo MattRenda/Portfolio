@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Container, Col, Row, Navbar, Button } from 'react-bootstrap'
 
 const smSpace={
-    marginTop: '50px',
+    marginTop: '10vh',
     textAlign: 'center'
 }
 const center = {
@@ -13,7 +13,7 @@ const center = {
 
 const introbig = {
     fontFamily: 'Open Sans, sans-serif',
-    fontSize: "20px",
+    fontSize: "2vw",
     textAlign: 'center',
     color:'rgb(75, 77, 79)'
 }
@@ -27,12 +27,12 @@ const moveUp={
     marginRight:'10vw',
     backgroundColor:'white',
     marginBottom:'30vh',
-    borderRadius: '25px',
+    borderRadius: '10vw',
 
 }
 const hover={
       cursor: 'pointer',
-      borderRadius: '150px'
+      borderRadius: '20vw'
 
 }
 class RecentWork extends Component {
