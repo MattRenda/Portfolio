@@ -3,11 +3,11 @@ import { Container } from 'react-bootstrap'
 
 const bgColor = {
     backgroundColor: 'rgb(252,183,78)',
+    textAlign: 'center',
     height: '50vh'
 }
 
 const center = {
-    marginLeft: '48vw',
     marginTop: '15vh'
 }
 
