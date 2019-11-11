@@ -9,15 +9,15 @@ const width = {
     fontFamily: 'Open Sans, sans-serif',
     fontSize: "1.5vw",
     color:'rgb(75, 77, 79)',
-    paddingLeft:'20px',
-    paddingRight:'20px'
+    paddingLeft:'2vw',
+    paddingRight:'2vw'
 }
 
 const card={
-    height:'70vh',
+    height:'40vw',
     backgroundColor:'white',
     borderRadius:'50px',
-    margin:'10px'
+    margin:'1vw'
 }
 const intro = {
     fontSize: '2vw'
