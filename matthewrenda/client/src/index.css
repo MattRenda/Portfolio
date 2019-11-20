@@ -1,0 +1,108 @@
+ 
+ .font{
+    font-family: Open Sans, sans-serif;
+ }
+
+ .center{
+    text-align: center;
+ }
+ 
+ .header-introbig{
+    font-size: 2vw;
+    margin-top: 120px;
+    color:rgb(75, 77, 79)
+
+}
+
+ .header-introsmall{
+    font-size: 1.5vw;
+    margin-top: 3vh;
+    margin-bottom: 50vh;
+    color:rgb(75, 77, 79)
+
+}
+
+ .header-btn {
+    position: absolute;
+    top: 6vw;
+    right: 6vw;
+    background-color:rgb(252, 183, 78);
+    border:none
+}
+
+ .header-brand{
+    position: absolute;
+    top: 6vw;
+    left: 6vw
+}
+
+ .header-smSpace{
+    margin-top: 20vh
+}
+
+ .header-bgColor{
+    background-color: white;
+    height:100vh
+}
+
+ .about-width {
+    padding-bottom: 50vh;
+    padding-top: 10vh;
+    background-color: rgb(252,183,78);
+    font-size: 1.5vw;
+    color: rgb(75, 77, 79);
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+ .about-card{
+    height: 40vw;
+    background-color: white;
+    border-radius: 50px;
+    margin: 1vw;
+}
+ .about-intro {
+    font-size: 2vw;
+}
+
+
+ .footer-bgColor {
+    background-color: rgb(252,183,78);
+    height: 50vh;
+}
+
+ .footer-center{
+    margin-top: 15vh;
+}
+
+ .footer-txtCenter {
+    margin-top: 20vh;
+    font-size: 1.5vw;
+}
+
+.work-smSpace {
+    margin-top: 10vh;
+}
+ .work-center {
+    color: rgb(75, 77, 79);
+
+}
+
+ .work-introbig {
+    font-size: 2vw;
+    color: rgb(75, 77, 79);
+}
+
+ .work-moveUp{
+    margin-top: -20vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: white;
+    margin-bottom: 30vh;
+    border-radius: 10vw;
+
+}
+ .work-hover{
+      cursor: pointer;
+      border-radius: 20vw;
+}

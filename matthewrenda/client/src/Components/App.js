@@ -4,6 +4,8 @@ import Header from './Header'
 import RecentWork from './RecentWork'
 import Footer from './Footer'
 import About from './About'
+import '../index.css'
+
 class App extends Component{
 
    
