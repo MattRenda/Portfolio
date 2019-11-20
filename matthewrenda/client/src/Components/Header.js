@@ -5,26 +5,26 @@ class Header extends Component {
 
     render() {
         return (
-            <div className='header-bgColor'>
+            <div className='header-bgColor light-blue'>
                 <Navbar >
                     <Navbar.Brand href="#home" className='header-brand'>
                         <img
-                            src={require('../imgs/portfolio_logo_template.png')}
-                            width="50"
-                            height="50"
-                            alt="React Bootstrap logo"
+                            src={require('../imgs/portfolio_logo_yellow.png')}
+                            width="75"
+                            height="75"
+                            alt="Matthew Renda logo"
                         />
                     </Navbar.Brand>
                 </Navbar>
 
                 <div>
-                    <Button className='header-btn'>Connect</Button>
+                    <Button className='header-btn yellow'>Connect</Button>
                 </div>
 
                 <Container className='header-smSpace'>
                     <Row>
                         <Col>
-                            <div className='header-introbig font'>
+                            <div className='header-introbig font center'>
                                 <b>Full stack web developer with a passion for creating, and a drive to learn.</b>
                             </div>
                         </Col>
@@ -32,12 +32,12 @@ class Header extends Component {
 
                     <Row>
                         <Col>
-                            <div className='header-introsmall'>
+                            <div className='header-introsmall center'>
                                 Hi, my name is Matthew Renda. I look forward to working with you.
                     </div>
                         </Col>
                     </Row>
-                   
+                 
 
                 </Container>
             </div>

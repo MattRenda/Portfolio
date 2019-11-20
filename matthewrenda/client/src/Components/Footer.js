@@ -7,8 +7,8 @@ class Footer extends Component {
         return (
             <>
                 <footer>
-                    <div className='footer-bgColor'>
-                        <img className='footer-center' src={require('../imgs/portfolio_logo_White.png')}
+                    <div className='footer-bgColor center light-blue'>
+                        <img className='footer-center' src={require('../imgs/portfolio_logo_yellow.png')}
                             width='50vw'
                             height='50vw' />
                         <div className='footer-txtCenter'> Copyright &copy; 2020, MatthewJRenda</div>
