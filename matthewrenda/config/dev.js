@@ -1,3 +1,3 @@
 module.export ={
-     SENDGRID_API_KEY:'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'
+     Sendgrid:'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'
 };

@@ -28,7 +28,7 @@ class ContactPage extends Component {
 
         axios.post('/api/contact',{name,email,message,subject})
         .catch(err=>{console.log(err)})
-
+        this.handleClose();
     }
 
     handleChange(event){
