@@ -27,7 +27,19 @@
     right: 8vw;
     border:none;
     color: rgb(36, 48, 94);
+    
 }
+
+.header-btn:hover {
+   background-color:rgb(207, 195, 135);
+   color: white;
+   border: none;
+ }
+
+ .header-btn:active {
+   outline: none;
+   border: none;
+ }
 
  .header-brand{
     position: absolute;

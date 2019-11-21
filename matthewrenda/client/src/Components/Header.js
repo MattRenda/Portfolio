@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Container, Col, Row, Navbar, Button } from 'react-bootstrap'
-
+import ContactPage from './ContactPage'
 class Header extends Component {
 
     render() {
@@ -18,7 +18,7 @@ class Header extends Component {
                 </Navbar>
 
                 <div>
-                    <Button className='header-btn yellow'>Connect</Button>
+                    <ContactPage/>
                 </div>
 
                 <Container className='header-smSpace'>
