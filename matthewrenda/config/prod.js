@@ -1,3 +1,3 @@
 module.exports ={
-    Sendgrid: process.env.API_KEY
+    Sendgrid: process.env.SENDGRID_API_KEY
 };
