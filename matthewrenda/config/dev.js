@@ -1,4 +1,4 @@
 module.exports ={
-     Sendgrid:'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'
+     Sendgrid:'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'
 
 };

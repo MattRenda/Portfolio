@@ -11,7 +11,7 @@ class ContactPage extends Component {
             name:'',
             email:'',
             message:'',
-            subject: 'Message from Portfolio!'
+            subject: 'messaged you from Portfolio!'
         }
         this.handleShow = this.handleShow.bind(this);
         this.handleClose = this.handleClose.bind(this);
@@ -27,6 +27,7 @@ class ContactPage extends Component {
         console.log(name + ' ' + email + ' ' + message + ' ' +subject)
 
         axios.post('/api/contact',{name,email,message,subject})
+        
         .catch(err=>{console.log(err)})
         this.handleClose();
     }
