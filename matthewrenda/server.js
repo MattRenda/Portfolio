@@ -4,22 +4,11 @@ const path = require('path');
 const app = express();
 const bodyparser = require('body-parser')
 const sgMail = require('@sendgrid/mail');
-const API_KEY = require('./config/keys');
-sgMail.setApiKey(API_KEY.Sendgrid);
 
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: false }));
 
-app.post('/api/contact', (req, res) => {
-    const { name, email, message, subject } = req.body
-    const msg = {
-        to: 'matthewrenda14@gmail.com',
-        from: email,
-        subject: subject,
-        text: message,
-    };
-    sgMail.send(msg);
-    console.log("API KEY = " + API_KEY.Sendgrid);
+
     console.log(name + ' ' + email + ' ' + message + ' ' + subject)
 })
 
