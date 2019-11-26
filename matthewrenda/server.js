@@ -14,7 +14,7 @@ app.post('/api/contact', (req, res) => {
     const { name, email, message, subject } = req.body
     
     const msg = {
-        to: 'matthewrenda14@gmail.com',
+        to: 'matthewjrenda@gmail.com',
         from: email,
         subject: name + ' ' + subject,
         text: message,
