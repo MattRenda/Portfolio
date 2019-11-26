@@ -11,7 +11,7 @@ class ContactPage extends Component {
             name:'',
             email:'',
             message:'',
-            subject: 'messaged you from Portfolio!'
+            subject: 'messaged you from your Portfolio!'
         }
         this.handleShow = this.handleShow.bind(this);
         this.handleClose = this.handleClose.bind(this);
