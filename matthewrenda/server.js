@@ -8,9 +8,9 @@ const sgMail = require('@sendgrid/mail');
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: false }));
 
-
+app.post('/api/contact',(res,req)=>{
     console.log(name + ' ' + email + ' ' + message + ' ' + subject)
-)
+})
 
 
 
