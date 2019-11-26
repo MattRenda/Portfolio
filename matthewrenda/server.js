@@ -10,7 +10,7 @@ app.use(bodyparser.urlencoded({ extended: false }));
 
 
     console.log(name + ' ' + email + ' ' + message + ' ' + subject)
-})
+)
 
 
 
