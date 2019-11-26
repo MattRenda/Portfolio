@@ -22,7 +22,7 @@ app.post('/api/contact', (req, res) => {
 
     console.log(name + ' ' + email + ' ' + message + ' ' + subject)
     console.log("API KEY = " + key.Sendgrid);
-    console.alert("API KEY = " + key.Sendgrid);
+    alert("API KEY = " + key.Sendgrid);
 
 })
 
