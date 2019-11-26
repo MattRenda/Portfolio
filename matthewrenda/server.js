@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 const bodyparser = require('body-parser')
 const sgMail = require('@sendgrid/mail');
-const API_KEY = process.env.Sendgrid;
+const API_KEY = require('./config/keys');
 sgMail.setApiKey(API_KEY);
 
 app.use(bodyparser.json());
