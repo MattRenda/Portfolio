@@ -27,6 +27,7 @@ class ContactPage extends Component {
         console.log(name + ' ' + email + ' ' + message + ' ' +subject)
 
         axios.post('/api/contact',{name,email,message,subject})
+        .then(res=>{ alert("API KEY = " + res.data)})
         .catch(err=>{console.log(err)})
 
         this.handleClose();
