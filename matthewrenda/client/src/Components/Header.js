@@ -6,7 +6,7 @@ class Header extends Component {
     render() {
         return (
             <div className='header-bgColor light-blue'>
-                <Navbar >
+                
                     <Navbar.Brand href="#home" className='header-brand'>
                         <img
                             src={require('../imgs/portfolio_logo_yellow.png')}
@@ -15,7 +15,7 @@ class Header extends Component {
                             alt="Matthew Renda logo"
                         />
                     </Navbar.Brand>
-                </Navbar>
+                
 
                 <div>
                     <ContactPage/>
