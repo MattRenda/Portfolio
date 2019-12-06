@@ -6,30 +6,30 @@ class RecentWork extends Component {
 
     render() {
         return (
-            <div className='center work-smSpace' style={{marginBottom:'30vh'}}>
+            <div className='center padding'>
                 <Container justify-content-center>
                         <div >
                             <div className='work-introbig'>
-                                <b>My recent work</b>
+                                <p >
+                                <h4><b>My recent work</b></h4>
+                                Here are a few of my recent projects
+                                </p>
                             </div>
 
-                            <div className='work-center'>
-                                Here are a few of my recent projects
-                            </div>
                         </div>
 
-                    <Row className='work-smSpace'>
-                        <Col className='background-image-ac' xs={6} md={4} >
+                    <Row >
+                        <Col className='background-image-ac' md={4}>
                             <a href='https://atepex.herokuapp.com/' target='_blank'> <img src={require('../imgs/AC_heating_logo.png')}
                                 width='250'
                                 height='250'
                                 className='work-hover'
-                                href=''/></a>
+                                /></a>
                         </Col>
-                        <Col className='background-image-ib' xs={6} md={4}>
+                        <Col className='background-image-ib' md={4}>
                             <a href='https://interviewbuddyapp.herokuapp.com' target='_blank'><img src={require('../imgs/Interviewbuddy_logo.png')}
-                            width='250'
-                            height='250'
+                            width='250px'
+                            height='250px'
                             /></a>
                         </Col>
                     </Row>

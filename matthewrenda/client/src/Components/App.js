@@ -4,6 +4,7 @@ import Header from './Header'
 import RecentWork from './RecentWork'
 import Footer from './Footer'
 import About from './About'
+import Intro from './intro'
 import '../index.css'
 
 class App extends Component{
@@ -14,6 +15,7 @@ class App extends Component{
         return(
             <>
             <Header/>
+            <Intro/>
             <About/>
             <RecentWork/>
             <Footer/>

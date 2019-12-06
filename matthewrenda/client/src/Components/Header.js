@@ -37,9 +37,12 @@ class Header extends Component {
                     </div>
                         </Col>
                     </Row>
-                 
 
                 </Container>
+                <div className='header-logo-container'>
+                    <img  className='header-logo-size' src={require('../imgs/landing design.png')}/>
+                </div>
+
             </div>
         )
     }
