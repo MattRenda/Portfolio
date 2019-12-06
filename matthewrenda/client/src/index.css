@@ -99,8 +99,8 @@
 }
 
  .footer-txtCenter {
-    margin-top: 20vh;
-    font-size: 1.5vw;
+    margin-top: 100px;
+    font-size: 10px;
     color: white;
 }
 
@@ -110,13 +110,14 @@
 }
 
  .work-introbig {
-    font-size: 2vw;
+    font-size: 20px;
     color: rgb(75, 77, 79);
 }
 
- .work-hover{
+ .work-logos{
       cursor: pointer;
-      border-radius: 20vw;
+      width:100px;
+      height: 100px;
 }
 
 .background-image-ac{
@@ -147,7 +148,7 @@
    margin: 0px auto;
 }
 .padding{
-   padding: 100px;
+   padding:100px 20px;
 }
 .yellow{
    background-color: rgb(248, 233, 161);
@@ -226,8 +227,68 @@
  */
  
  @media (min-width: 481px) and (max-width: 767px) {
-   
-   
+   .header-btn {
+      position: absolute;
+      top: 60px;
+      right: 40px;
+      border:none;
+      color: rgb(36, 48, 94);
+      
+  }
+  
+  .header-btn:hover {
+     background-color:rgb(207, 195, 135);
+     color: white;
+     border: none;
+   }
+  
+   .header-btn:active {
+     outline: none;
+     border: none;
+   }
+
+   .header-introbig{
+      font-size: 20px;
+      margin-top: 150px;
+      color:rgb(75, 77, 79);
+  }
+
+   .header-bgColor{
+      position: relative;
+      height:700px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .intro-p{
+   line-height: 200%;
+   font-size: 20px;
+   width: 400px;
+   margin: 0 auto;
+ }
+.intro-h{
+   margin: 0 auto;
+
+}
+ .about-card{
+   background-color: white;
+   border-radius: 5px;
+   border: .5px solid rgb(167, 167, 167);
+   float: left;
+   width:100%;
+   height:180px;
+}
+
+.work-introbig {
+   font-size: 13px;
+   color: rgb(75, 77, 79);
+}
+
+.footer-txtCenter {
+   margin-top: 100px;
+   font-size: 10px;
+   color: white;
+}
  }
  
  /* 
@@ -237,5 +298,89 @@
  
  @media (min-width: 320px) and (max-width: 480px) {
    
+   .header-btn {
+      position: absolute;
+      top: 45px;
+      right: 10px;
+      border:none;
+      color: rgb(36, 48, 94);
+      
+  }
+  
+  .header-btn:hover {
+     background-color:rgb(207, 195, 135);
+     color: white;
+     border: none;
+   }
+  
+   .header-btn:active {
+     outline: none;
+     border: none;
+   }
+
+   .header-introbig{
+      font-size: 20px;
+      margin-top: 150px;
+      color:rgb(75, 77, 79);
+  }
+
+   .header-bgColor{
+      position: relative;
+      height:700px;
+      display: flex;
+      justify-content: center;
+  }
    
+  .header-logo-size{
+   width: 320px;
+   height:auto;
+}
+
+  .intro-h{
+   width: 300px;
+   margin: 0 auto;
+}
+  .intro-p{
+   line-height: 200%;
+   font-size: 15px;
+   width: 100%;
+   margin: 0 auto;
+
+ }
+
+ .about-card{
+   background-color: white;
+   border-radius: 5px;
+   border: .5px solid rgb(167, 167, 167);
+   float: left;
+   width:100%;
+   height:200px;
+}
+
+.work-introbig {
+   font-size: 13px;
+   color: rgb(75, 77, 79);
+}
+
+.work-logos{
+   cursor: pointer;
+   width:200px;
+   height: 200px;
+   margin: 0 auto;
+}
+
+.background-image-ac{
+   width:200px;
+   height: 200px;
+}
+.background-image-ib{
+   width:200px;
+   height: 200px;
+}
+.footer-txtCenter {
+   margin-top: 100px;
+   font-size: 10px;
+   color: white;
+}
+
  }

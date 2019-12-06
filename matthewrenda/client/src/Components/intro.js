@@ -8,7 +8,7 @@ class Intro extends Component {
         return (
             <>
                 <div className='center padding'>
-                        <h4><b>Hi i'm Matthew. Nice to meet you.</b></h4>  <br />
+                        <h4 className='intro-h'><b>Hi i'm Matthew. Nice to meet you.</b></h4> 
                         <p className="intro-p"> 
                         Hard-working web developer, with a passion for problem solving in the least amount of time.
                         I have worked in many groups on multiple projects during my time at CSUS. I've collaborated with 

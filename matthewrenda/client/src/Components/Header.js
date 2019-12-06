@@ -24,7 +24,7 @@ class Header extends Component {
                 <Container className='header-smSpace'>
                     <Row>
                         <Col>
-                            <div className='header-introbig font center'>
+                            <div className='header-introbig center'>
                                 <b>Full stack web developer with a passion for creating, and a drive to learn.</b>
                             </div>
                         </Col>
