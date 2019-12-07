@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Col, Row, Navbar, Button } from 'react-bootstrap'
+import { Container, Col, Row, Navbar } from 'react-bootstrap'
 import ContactPage from './ContactPage'
 class Header extends Component {
 
@@ -40,7 +40,7 @@ class Header extends Component {
 
                 </Container>
                 <div className='header-logo-container'>
-                    <img  className='header-logo-size' src={require('../imgs/landing design.png')}/>
+                    <img alt="header-design" className='header-logo-size' src={require('../imgs/landing design.png')}/>
                 </div>
 
             </div>
