@@ -20,7 +20,7 @@ class RecentWork extends Component {
 
                     <Row >
                         <Col className='background-image-ac' md={4}>
-                            <a href='https://atepex.herokuapp.com/' target='_blank' rel="noopener noreferrer"> <img style={{ margin: '0px auto' }} src={require('../imgs/AC_heating_logo.png')}
+                            <a href='https://atepex.herokuapp.com/' target='_blank' rel="noopener noreferrer"> <img src={require('../imgs/AC_heating_logo.png')}
                                 className='work-logos'
                                 alt="ACHeatinglogo"
                             /></a>
