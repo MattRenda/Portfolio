@@ -129,22 +129,16 @@
    background-size: cover;
    border-radius: 5px;
    margin: 0px auto;
-   opacity: 90%;
-   transition: opacity .2s ease;
 
 }
 
-.background-image-ac:hover{
-  opacity: 100%; 
-
-}
 .background-image-ib{
    background: linear-gradient(
       rgba(36, 48, 94, 0.6),
       rgba(36, 48, 94, 0.6)
     );
    background-size: cover;
-   border-radius: 1vw;
+   border-radius: 5px;
    margin: 0px auto;
 }
 .padding{
