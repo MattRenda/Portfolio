@@ -40,7 +40,7 @@ class Header extends Component {
 
                 </Container>
                 <div className='header-logo-container'>
-                    <img alt="header-design" className='header-logo-size' src={require('../imgs/landing design.png')}/>
+                    <img alt="header-design" className='header-logo-size' src={require('../imgs/MatthewRenda-logo.png')}/>
                 </div>
 
             </div>
