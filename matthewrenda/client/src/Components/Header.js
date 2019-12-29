@@ -5,7 +5,7 @@ class Header extends Component {
 
     render() {
         return (
-            <div className='header-bgColor light-blue'>
+            <div className='header-bgColor red'>
                 
                     <Navbar.Brand href="#home" className='header-brand'>
                         <img
@@ -25,7 +25,7 @@ class Header extends Component {
                     <Row>
                         <Col>
                             <div className='header-introbig center'>
-                                <b>Full stack web developer with a passion for creating, and a drive to learn.</b>
+                                Full stack web developer with a passion for creating, and a drive to learn.
                             </div>
                         </Col>
                     </Row>

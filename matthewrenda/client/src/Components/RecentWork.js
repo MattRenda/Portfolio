@@ -10,29 +10,22 @@ class RecentWork extends Component {
                 <Container justify-content-center>
                     <div >
                         <div className='work-introbig'>
-                            <p >
-                                <h4><b>My recent work</b></h4>
-                                Here are a few of my recent projects
-                                </p>
+                            <h4><b>My recent work</b></h4>
                         </div>
 
                     </div>
 
-                    <Row >
-                        <Col className='background-image-ac' md={4}>
-                            <a href='https://atepex.herokuapp.com/' target='_blank' rel="noopener noreferrer"> <img src={require('../imgs/AC_heating_logo.png')}
-                                className='work-logos'
-                                alt="ACHeatinglogo"
-                            /></a>
-                        </Col>
-                        <Col className='background-image-ib' md={4}>
-                            <a href='https://interviewbuddyapp.herokuapp.com' target='_blank' rel="noopener noreferrer"><img src={require('../imgs/Interviewbuddy_logo.png')}
-                                className='work-logos'
-                                alt="interviewBuddylogo"
 
-                            /></a>
-                        </Col>
-                    </Row>
+                    <a href='https://atepex.herokuapp.com/' target='_blank' rel="noopener noreferrer"> <img src={require('../imgs/AC_heating_logo.png')}
+                        className='work-logos background-image-ac'
+                        alt="ACHeatinglogo"
+                    /></a>
+
+                    <a href='https://interviewbuddyapp.herokuapp.com' target='_blank' rel="noopener noreferrer"><img src={require('../imgs/Interviewbuddy_logo.png')}
+                        className='work-logos background-image-ib'
+                        alt="interviewBuddylogo"
+                    /></a>
+                   
                 </Container>
 
             </div>
