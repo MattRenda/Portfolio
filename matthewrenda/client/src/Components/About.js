@@ -20,7 +20,7 @@ class About extends Component {
                                 </div>
                         </div>
                         <div className='about-padding'>
-                            <img className='about-img-passion' src={require('../imgs/growth.jpg')}></img>
+                            <img className='about-img' src={require('../imgs/growth.jpg')}></img>
 
                             <div className='about-card-passion'>
                                 <h4><b>Passion</b><IoMdRibbon /></h4>
