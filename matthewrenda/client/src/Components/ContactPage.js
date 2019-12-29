@@ -46,7 +46,7 @@ class ContactPage extends Component {
 
                 <Modal show={this.state.show} onHide={this.handleClose}>
                     <Modal.Header closeButton>
-                        <Modal.Title>How can I help you?</Modal.Title>
+                        <Modal.Title>How can I help?</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
                         <Form>

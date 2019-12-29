@@ -7,7 +7,7 @@ class Header extends Component {
         return (
             <div className='header-bgColor red'>
                 
-                    <Navbar.Brand href="#home" className='header-brand'>
+                    <Navbar.Brand className='header-brand'>
                         <img
                             src={require('../imgs/portfolio_logo_yellow.png')}
                             width="75"
