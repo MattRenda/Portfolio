@@ -16,16 +16,37 @@ class RecentWork extends Component {
                     </div>
 
 
-                    <a href='https://atepex.herokuapp.com/' target='_blank' rel="noopener noreferrer"> <img src={require('../imgs/AC_heating_logo.png')}
-                        className='work-logos background-image-ac'
-                        alt="ACHeatinglogo"
-                    /></a>
+                    <a
 
-                    <a href='https://interviewbuddyapp.herokuapp.com' target='_blank' rel="noopener noreferrer"><img src={require('../imgs/Interviewbuddy_logo.png')}
-                        className='work-logos background-image-ib'
-                        alt="interviewBuddylogo"
-                    /></a>
-                   
+                        href='https://atepex.herokuapp.com/'
+                        target='_blank'
+                        rel="noopener noreferrer">
+                        <div className='work-logos background-image-ac'>
+                            <img style={{ width: '200px', height: '200px' }} src={require('../imgs/AC_heating_logo.png')}
+                                alt="ACHeatinglogo"
+                            />
+                        </div>
+                    </a>
+
+                    <a
+                        href='https://interviewbuddyapp.herokuapp.com'
+                        target='_blank'
+                        rel="noopener noreferrer">
+                        <div className='work-logos background-image-ib'>
+                            <img style={{ width: '200px', height: '200px' }} src={require('../imgs/Interviewbuddy_logo.png')}
+                                alt="interviewBuddylogo"
+                            />
+                        </div>
+                    </a>
+
+                    <a 
+                        href=''
+                        target='_blank'
+                        rel="noopener noreferrer"
+                        ><img className='background-image-ib'/>
+                        
+                    </a>
+                
                 </Container>
 
             </div>

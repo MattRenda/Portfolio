@@ -139,29 +139,29 @@
 
  .work-logos{
       cursor: pointer;
-      width:100px;
-      height: 100px;
 }
 
 .background-image-ac{ 
    border-radius: 5px;
    margin: 0px auto;
-   width: 200px;
-   height: auto;
-   margin: 30px;
-   background-color: cornflowerblue;
-   border: 2px solid black;
-
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   background-color: white;
+   border: 1px solid black;
+   display: inline-block;
 }
 
 .background-image-ib{
    border-radius: 5px;
    margin: 0px auto;
-   width: 200px;
-   height: auto;
-   margin: 30px;
-   background-color: cornflowerblue;
-   border: 2px solid black;
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   background-color: white;
+   border: 1px solid black;
+   display: inline-block;
+
 }
 
 .padding{
@@ -436,22 +436,24 @@
 .background-image-ac{ 
    border-radius: 5px;
    margin: 0px auto;
-   width: 200px;
-   height: auto;
-   margin: 30px;
-   background-color: cornflowerblue;
-   border: 2px solid black;
-
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   background-color: white;
+   border: 1px solid black;
+   display: inline-block;
 }
 
 .background-image-ib{
    border-radius: 5px;
    margin: 0px auto;
-   width: 200px;
-   height: auto;
-   margin: 30px;
-   background-color: cornflowerblue;
-   border: 2px solid black;
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   background-color: white;
+   border: 1px solid black;
+   display: inline-block;
+
 }
 
 .footer-txtCenter {
