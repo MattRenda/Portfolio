@@ -11,7 +11,7 @@ class About extends Component {
                 <div className='center padding'>
                     <div className='about-width'>
                         <div className='about-padding'>
-                            <img className='about-img' src={require('../imgs/school2.webp')}></img>
+                            <img className='about-img' src={require('../imgs/school.jpg')}></img>
 
                             <div className='about-card-edu'>
                                 <h4><b>Education</b><IoIosBook /></h4>
@@ -20,7 +20,7 @@ class About extends Component {
                                 </div>
                         </div>
                         <div className='about-padding'>
-                            <img className='about-img' src={require('../imgs/growth2.webp')}></img>
+                            <img className='about-img' src={require('../imgs/growth.jpg')}></img>
 
                             <div className='about-card-passion'>
                                 <h4><b>Passion</b><IoMdRibbon /></h4>
@@ -30,7 +30,7 @@ class About extends Component {
                                                             </div>
                         </div>
                         <div className='about-padding'>
-                        <img className='about-img' src={require('../imgs/mind2.webp')}></img>
+                        <img className='about-img' src={require('../imgs/mind.jpg')}></img>
 
                             <div className='about-card-drive'>
                                 <h4><b>Drive</b><IoMdWalk /></h4>
