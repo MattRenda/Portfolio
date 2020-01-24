@@ -42,12 +42,8 @@ class RecentWork extends Component {
                     <a 
                         href='https://remindme2.azurewebsites.net/'
                         target='_blank'
-                        rel="noopener noreferrer">
-                         <div className='work-logos background-image-ib'>
-                            <img style={{ width: '200px', height: '200px' }}
-                                alt="interviewBuddylogo"
-                            />
-                        </div>
+                        rel="noopener noreferrer"
+                        ><img className='background-image-ib'/>
                         
                     </a>
                 
