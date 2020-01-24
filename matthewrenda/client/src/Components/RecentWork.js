@@ -40,7 +40,7 @@ class RecentWork extends Component {
                     </a>
 
                     <a 
-                        href=''
+                        href='https://remindme2.azurewebsites.net/'
                         target='_blank'
                         rel="noopener noreferrer"
                         ><img className='background-image-ib'/>
