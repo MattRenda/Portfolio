@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "set NODE_ENV=production && webpack-dev-server",
+    "build": "set NODE_ENV=production && webpack-dev-server --content-base",
     "server": "nodemon server.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\" "
