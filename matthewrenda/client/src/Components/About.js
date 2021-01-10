@@ -13,8 +13,8 @@ class About extends Component {
                             <div className='item'>
                             <img className='about-img' src={require('../imgs/school.jpg')}></img>
                                 <h4><b>Education</b><IoIosBook /></h4>
-                                I am currently attending California State University, Sacramento.
-                                My expected graduation date is May 2020 with a Bachelors in Computer Science.
+                                I attended California State University, Sacramento.
+                                 Graduating with a Bachelors in Computer Science.
                                 </div>
                             <div className='item'>
                             <img className='about-img' src={require('../imgs/growth.jpg')}></img>
