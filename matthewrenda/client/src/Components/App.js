@@ -5,6 +5,7 @@ import Footer from './Footer'
 import About from './About'
 import Intro from './intro'
 import '../index.css'
+import '../Style/style.css'
 
 class App extends Component{
 
