@@ -10,13 +10,11 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-icons": "^3.8.0",
-    "react-scripts": "3.2.0",
-    "webpack": "^5.12.3",
-    "webpack-dev-server": "^3.11.1"
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "node server.js",
-    "build": "set NODE_ENV=production && webpack-dev-server --content-base",
+    "build": "set NODE_ENV=production && webpack-dev-server --host 127.0.0.1 --inline --history-api-fallback --content-base",
     "server": "nodemon server.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\" "
@@ -42,6 +40,9 @@
   "devDependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "webpack-cli": "^4.3.1"
+    "webpack": "^5.12.3",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1",
+    "webpack-merge": "^5.7.3"
   }
 }
